@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 333,
+    "editor.tabSize": 2
+}

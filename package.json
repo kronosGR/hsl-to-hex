@@ -1,12 +1,32 @@
 {
-  "name": "hsl-to-hex",
+  "name": "@kronosgr/hsl-to-hex",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && tap --cov test",
+    "lint": "standard"
   },
   "keywords": [],
   "author": "KronoS",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.11.10",
+    "hsl-to-rgb-for-reals": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4",
+    "tap": "^14.10.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kronosGR/hsl-to-hex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kronosGR/hsl-to-hex/issues"
+  },
+  "homepage": "https://github.com/kronosGR/hsl-to-hex#readme",
+  "description": "Convert HSL color to RGB color in hex format",
+  "directories": {
+    "test": "test"
+  }
 }
